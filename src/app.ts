@@ -12,7 +12,7 @@ app.use('/product/v1', productRoutes);
 app.use('/order/v1', orderRouters);
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('bulbul is hear');
+  res.send('server is running');
 });
 
 app.get('*', (req, res) => {

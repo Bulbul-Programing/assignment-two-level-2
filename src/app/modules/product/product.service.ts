@@ -31,7 +31,7 @@ const searchProductIntoDB = async (queryValue: any) => {
   const result = await productModel.find({
     $or: [
       { name: { $regex: queryValue, $options: 'i' } },
-      { description: { $regex: queryValue, $options: 'i' } },
+      { description: { $regex: queryValue, $options: 'i' }},
       {category : { $regex: queryValue, $options: 'i' }}
     ],
   });

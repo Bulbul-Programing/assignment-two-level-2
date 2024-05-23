@@ -32,7 +32,7 @@ const searchProductIntoDB = async (queryValue: any) => {
     $or: [
       { name: { $regex: queryValue, $options: 'i' } },
       { description: { $regex: queryValue, $options: 'i' } },
-      {category : { $regex: queryValue, $options: 'i' }} 
+      {category : { $regex: queryValue, $options: 'i' }}
     ],
   });
   return result;

@@ -5,7 +5,7 @@ import { orderRouters } from './app/modules/order/order.route';
 const app: Application = express();
 
 // parser
-app.use(express.json()); 
+app.use(express.json());  
 app.use(cors());
 
 app.use('/product/v1', productRoutes);

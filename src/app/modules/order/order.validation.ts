@@ -6,5 +6,4 @@ const orderValidationSchema = Joi.object({
     quantity: Joi.number().integer().positive().required(),
     price: Joi.number().positive().required()
 });
-
 export default orderValidationSchema

@@ -15,7 +15,7 @@
  ##### ``` npm install ```
 #
 #
-####  Contact me for ``` .env ``` file
+####  Contact me for ``` .env ``` file.
 #
 #
 #### Running the Application
